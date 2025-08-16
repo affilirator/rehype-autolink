@@ -1,0 +1,1 @@
+export { rehypeAutoLink } from "./src/rehypeAutoLink.js";

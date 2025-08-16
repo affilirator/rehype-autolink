@@ -1,0 +1,35 @@
+{
+  "name": "rehype-autolink",
+  "version": "1.0.0",
+  "description": "An Astro + Rehype plugin that auto-links text phrases in blog posts based on a JSON config file.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src/"
+  ],
+  "keywords": [
+    "rehype",
+    "astro",
+    "markdown",
+    "plugin",
+    "autolink",
+    "seo"
+  ],
+  "author": "Patrick Mahinge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/affilirator/rehype-autolink"
+  },
+  "bugs": {
+    "url": "https://github.com/affilirator/rehype-autolink/issues"
+  },
+  "homepage": "https://github.com/affilirator/rehype-autolink#readme",
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  }
+}
